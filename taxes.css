@@ -12,7 +12,8 @@ body {
 }
 
 h1 {
- 	font-family: "Sofia Pro", Arial, sans-serif;
+    font-family: "Sofia Pro", Arial, sans-serif;
     font-size: 40px;
+    text-align: center;
  }
 
