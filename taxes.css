@@ -62,7 +62,14 @@ p {
 
 .spacer {
 	width: 800px;
-	height: 50px;
+	height: 20px;
 	margin: auto;
 }
 	
+.circle {
+	width: 5px;
+	height: 5px;
+	background: hsl(0,0%,0%);
+	border-radius: 2.5px;
+	margin: 0px 10px 0px 10px;
+}
