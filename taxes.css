@@ -21,8 +21,22 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Tiempos Text;
+    src: url("../f1-taxes/TiemposText-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Tiempos Text;
+    src: url("../f1-taxes/TiemposText-BoldItalic.otf") format('opentype');
+    font-weight: Bold;
+    font-style: italic;
+}
+
 body {
-    padding-top: 50px;    
+    padding-top: 50px;
 }
 
 h1 {
@@ -31,6 +45,7 @@ h1 {
     font-size: 40px;
     line-height: 10%;
     text-align: center;
+    color: #0098ff;
  }
 
 h2 {
@@ -41,12 +56,31 @@ h2 {
     letter-spacing: 2px;
  }
 
+h3 {
+    font-family: "Calibre", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    padding-top: 9.5px;
+    letter-spacing: 2px;
+}
+
+h4 {
+  font-family: "Sofia Pro", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+}
+
 p {
     font-family: "Tiempos Text", Times, serif;
-    font-weight: medium;
+    font-weight: normal;
     font-size: 15px;
-    line-height: 120%;
+    line-height: 140%;
     text-align: left;
+    display: block;
 }
 
 .centered {
@@ -55,15 +89,85 @@ p {
 	margin: auto;
 }
 
-.textbox {
-    height: 200px;
-    width: 300px;
-    position: relative;
+.header170px {
+  width: 170px;
+  height: 30px;
+  background-color: black;
+  margin: auto;
 }
 
-.spacer {
+.button300px {
+  width: 300px;
+  height: 30px;
+  background-color: #0098ff;
+  margin: auto;
+  transition: transform 0.1s ease-in-out;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  z-index: 99;
+}
+
+.button300px:hover {
+	      transform: translate(3px, 3px);
+}
+
+.buttonshadow300px {
+  width: 300px;
+  height: 30px;
+  background-color: #005d9c;
+  margin: auto;
+  position: relative;
+  top: -30px;
+  z-index: 98;
+}
+
+.textbox300px {
+    height: 200px;
+    width: 300px;
+    display: block;
+    float: left;
+}
+
+.textbox400px {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.textbox600px {
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+
+.spacer5px {
+	width: 800px;
+	height: 5px;
+	margin: auto;
+}
+
+.spacer20px {
 	width: 800px;
 	height: 20px;
+	margin: auto;
+}
+
+.spacer40px {
+	width: 800px;
+	height: 40px;
+	margin: auto;
+}
+
+.spacer60px {
+	width: 800px;
+	height: 60px;
+	margin: auto;
+}
+
+.spacer80px {
+	width: 800px;
+	height: 80px;
 	margin: auto;
 }
 
@@ -72,7 +176,7 @@ p {
 	height: 5px;
 	margin: auto;
 }
-	
+
 .circle {
 	float: left;
 	width: 5px;
@@ -86,13 +190,20 @@ p {
 	height: 200px;
 	width: 650px;
 	margin: auto;
-	position: absolute;
+}
+
+.forms {
+  height: 1500px;
+  width: 800px;
+  margin: auto;
 }
 
 .introimg {
 	height: 200px;
 	width: 300px;
 	margin-right: 50px;
+  display: block;
 	float: left;
-	position: relative;
+}
+
 }
