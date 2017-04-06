@@ -14,6 +14,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Tiempos Text;
+    src: url("../f1-taxes/TiemposText-Medium.otf") format('opentype');
+    font-weight: medium;
+    font-style: normal;
+}
+
 body {
     padding-top: 50px;    
 }
@@ -33,4 +40,16 @@ h2 {
     text-align: center;
     letter-spacing: 2px;
  }
+
+p {
+    font-family: "Tiempos Text", Times, serif;
+    font-weight: medium;
+    font-size: 15px;
+    text-align: left;
+}
+
+.textbox {
+    height: 200px;
+    width: 300px;
+}
 
