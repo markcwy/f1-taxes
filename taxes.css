@@ -85,6 +85,7 @@ p {
 	height: 200px;
 	width: 650px;
 	margin: auto;
+	position: absolute;
 }
 
 .introimg {
