@@ -58,6 +58,7 @@ p {
 .textbox {
     height: 200px;
     width: 300px;
+    position: relative;
 }
 
 .spacer {
@@ -79,4 +80,18 @@ p {
 	background: hsl(0,0%,0%);
 	border-radius: 2.5px;
 	margin: 0px 10px 0px 10px;
+}
+
+.intro {
+	height: 200px;
+	width: 550px;
+	margin: auto;
+}
+
+.introimg {
+	height: 200px;
+	width: 300px;
+	margin-right: 50px;
+	position: absolute;
+	float: left;
 }
