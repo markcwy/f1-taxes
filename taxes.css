@@ -61,6 +61,7 @@ p {
 }
 
 .spacer {
+	float: left;
 	width: 800px;
 	height: 20px;
 	margin: auto;
