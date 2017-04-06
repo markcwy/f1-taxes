@@ -60,3 +60,9 @@ p {
     width: 300px;
 }
 
+.spacer {
+	width: 800px;
+	height: 50px;
+	margin: auto;
+}
+	
