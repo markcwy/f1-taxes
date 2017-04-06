@@ -7,13 +7,29 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Calibre;
+    src: url("../f1-taxes/Calibre-Bold.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     padding-top: 50px;    
 }
 
 h1 {
-    font-family: "Sofia Pro", Arial, sans-serif;
+    font-family: "Sofia Pro", Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 40px;
     text-align: center;
+ }
+
+h2 {
+    font-family: "Calibre", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 14px;
  }
 
