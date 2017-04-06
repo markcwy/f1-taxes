@@ -61,13 +61,13 @@ p {
 }
 
 .spacer {
-	float: left;
 	width: 800px;
 	height: 20px;
 	margin: auto;
 }
 	
 .circle {
+	float: left;
 	width: 5px;
 	height: 5px;
 	background: hsl(0,0%,0%);
