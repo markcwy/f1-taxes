@@ -58,7 +58,6 @@ p {
 .textbox {
     height: 200px;
     width: 300px;
-    position: relative;
 }
 
 .spacer {
@@ -92,5 +91,4 @@ p {
 	height: 200px;
 	width: 300px;
 	margin-right: 50px;
-	position: relative;
 }
