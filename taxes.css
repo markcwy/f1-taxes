@@ -91,4 +91,5 @@ p {
 	height: 200px;
 	width: 300px;
 	margin-right: 50px;
+	float: left;
 }
