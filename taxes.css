@@ -36,25 +36,25 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 100px;
+    margin: 0px;
 }
 
 h1 {
     font-family: "Sofia Pro", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 40px;
-    line-height: 10%;
     text-align: center;
-    color: #0098ff;
  }
 
 h2 {
     font-family: "Calibre", Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 2px;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1.5px;
  }
+
 
 h3 {
     font-family: "Calibre", Helvetica, sans-serif;
@@ -74,6 +74,16 @@ h4 {
   text-align: center;
 }
 
+h5 {
+  font-family: "Sofia Pro", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 100%;
+  text-align: left;
+  padding-left: 50px;
+  color: #0098ff;
+}
+
 p {
     font-family: "Tiempos Text", Times, serif;
     font-weight: normal;
@@ -83,9 +93,43 @@ p {
     display: block;
 }
 
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.header {
+    height:50px;
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+    position: fixed;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-bottom-color: #0098ff;
+    top:0px;
+    padding-bottom:50px;
+    margin-bottom: 100px;
+    z-index: 100000;
+}
+
+.footer {
+    height:20px;
+    width: 100%;
+    background:#0098ff;
+    margin: auto;
+    position: fixed;
+    bottom:0px;
+}
+
 .centered {
 	width: 800px;
-	height: 3500px;
 	margin: auto;
 }
 
@@ -137,6 +181,7 @@ p {
 
 .textbox600px {
   width: 600px;
+  padding-top: 20px;
   display: block;
   margin: auto;
 }
@@ -144,6 +189,12 @@ p {
 .spacer5px {
 	width: 800px;
 	height: 5px;
+	margin: auto;
+}
+
+.spacer10px {
+	width: 800px;
+	height: 10px;
 	margin: auto;
 }
 
@@ -206,4 +257,10 @@ p {
 	float: left;
 }
 
+.graph {
+	height: 100px;
+	width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+	margin-left: 100px;
 }
