@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Tax Forms for F-1 Visas</title>
+<link href="../f1-taxes/taxes.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header">
+  <h5 style="float: left;"><a href="index.html">Tax Information for F-1 Visas</a></h5>
+  <h2 style="padding: 40px 50px 0px 0px; float: right; color: black;"><a href="../f1-taxes/terms.html">TERMS</a></h2>
+  <h2 style="padding: 40px 30px 0px 0px; float: right; color: black;"><a href="../f1-taxes/forms.html">FORMS</a></h2>
+  <h2 style="padding: 40px 30px 0px 0px; float: right; color: black;"><a href="../f1-taxes/spt.html">SPT</a></h2>
+</div>
+
+<div class="centered">
+
+  <div class="textbox600px">
+    <h1 style="color:black;">Complicated Terms</h1>
+  </div>
+
+  <div class="dottedline">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
+
+    <div class="spacer60px"></div>
+
+
+      <div class="header170px">
+        <h3>TAXES</h3>
+      </div>
+
+      <div class="textbox400px">
+        <div class="spacer20px"></div>
+        <p style="text-align: center;">
+          Taxes are a compulsory contribution to state revenue,
+taken by the government on workers' income and business profits,
+or added to the cost of some goods, services, and transactions.
+There are a few kinds of taxes. </p>
+      </div>
+
+      <img class="graph" src="../f1-taxes/Taxes1a.gif">
+
+      <div class="textbox400px">
+        <p style="text-align: center;">
+          However, as an F-1 Visa holder, you are not required to pay some of these taxes. </p>
+      </div>
+
+      <img class="graph" src="../f1-taxes/Taxes1b.gif">
+
+
+      <div class="spacer60px"></div>
+
+      <div class="header170px">
+        <h3>TAX WITHHOLDING</h3>
+      </div>
+
+      <div class="textbox400px">
+        <div class="spacer20px"></div>
+        <p style="text-align: center;">
+          This is the amount of money held from your income by your employer to pay for taxes. </p>
+      </div>
+
+      <img class="graph" src="../f1-taxes/Taxes2.gif">
+
+      <div class="spacer60px"></div>
+
+      <div class="header170px">
+        <h3>TAX RETURNS</h3>
+      </div>
+
+      <div class="textbox400px">
+        <div class="spacer20px"></div>
+        <p style="text-align: center;">
+          Sometimes, your employer deducts more than the amount you owe. You can claim back this amount from the IRS. These are your tax returns. </p>
+      </div>
+
+      <img class="graph" src="../f1-taxes/Taxes3.gif">
+
+        <div class="spacer60px"></div>
+
+
+  </div>
+
+
+</div>
+<div class="footer"></div>
+</body>
+</html>
