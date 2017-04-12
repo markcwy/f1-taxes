@@ -2,35 +2,35 @@
 
 @font-face {
     font-family: Sofia Pro;
-    src: url("../f1-taxes/fonts/Sofia Pro Bold.otf") format('opentype');
+    src: url("../f1-taxes/Sofia Pro Bold.otf") format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Calibre;
-    src: url("../f1-taxes/fonts/Calibre-Bold.otf") format('opentype');
+    src: url("../f1-taxes/Calibre-Bold.otf") format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: Tiempos Text;
-    src: url("../f1-taxes/fonts/TiemposText-Medium.otf") format('opentype');
+    src: url("../f1-taxes/TiemposText-Medium.otf") format('opentype');
     font-weight: medium;
     font-style: normal;
 }
 
 @font-face {
     font-family: Tiempos Text;
-    src: url("../f1-taxes/fonts/TiemposText-Regular.otf") format('opentype');
+    src: url("../f1-taxes/TiemposText-Regular.otf") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: Tiempos Text;
-    src: url("../f1-taxes/fonts/TiemposText-BoldItalic.otf") format('opentype');
+    src: url("../f1-taxes/TiemposText-BoldItalic.otf") format('opentype');
     font-weight: Bold;
     font-style: italic;
 }
