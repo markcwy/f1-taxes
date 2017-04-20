@@ -353,6 +353,14 @@ a:visited {
 	margin-left: 100px;
 }
 
+.forms {
+	height: 200px;
+	width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+	margin-left: 100px;
+}
+
 .form {
 	height: 300px;
 	width: 600px;
